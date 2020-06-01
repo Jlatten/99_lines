@@ -1,13 +1,20 @@
-let friends = [" Jennifer", " Eryka", " Charmaine", " Dommy", " Lurong"];
-//let n = 99
+let singButton = document.querySelector("button");
 
-let a = " lines of code in the file ";
-let b = " lines of code";
-let c = " strikes one out, clears it all out, ";
-let d = " line of code ";
-let e = " no more";
+singButton.addEventListener("click", function() {
+    let friends = [" Jennifer", " Eryka", " Charmaine", " Dommy", " Lurong"];
 
-function singsong() {
+
+    let a = " lines of code in the file ";
+    let b = " lines of code";
+    let c = " strikes one out, clears it all out, ";
+    let d = " line of code ";
+    let e = " no more";
+
+
+
+
+
+
     for (let f = 0; f < friends.length; f++) {
         //console.log(friends[f])
 
@@ -19,6 +26,4 @@ function singsong() {
             }
         }
     }
-}
-
-singsong();
+});
